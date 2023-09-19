@@ -8,7 +8,7 @@ const Login = () => {
     <div className="flex items-center justify-center h-screen p-4 gap-2">
       {session && (
         <div className="flex gap-2 items-center">
-          <Image src={session?.user!.image} alt="img" width={50} height={50} />
+          <Image src={session!.user!.image!} alt="img" width={50} height={50} />
           <div className="flex flex-col gap-2">
             <p className="font-bold">{session?.user?.name}</p>
             <p>{session?.user?.email}</p>
