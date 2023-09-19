@@ -6,7 +6,7 @@ import LinkedinSVG from "../../public/linkedin-svgrepo-com.svg";
 
 export default function Footer() {
   return (
-    <footer className="text-gray-600 body-font">
+    <footer className="text-gray-600 body-font  bg-slate-200">
       <div className="container mx-auto flex items-center sm:flex-row flex-col p-2 gap-3">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <span className="ml-3 text-xl">Hunter</span>
