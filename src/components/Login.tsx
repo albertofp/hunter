@@ -5,7 +5,7 @@ import { signIn, signOut, useSession } from "next-auth/react";
 const Login = () => {
   const { data: session } = useSession();
   return (
-    <div className="flex items-center justify-center h-screen p-4 gap-2">
+    <div className="flex items-center justify-center gap-2">
       {session && (
         <div className="flex gap-2 items-center">
           <Image
@@ -24,7 +24,7 @@ const Login = () => {
       {!session && (
         <button
           onClick={() => signIn()}
-          className="p-2 my-2 bg-zinc-500 text-white rounded-md"
+          className="p-2 bg-slate-500 text-white rounded-md"
         >
           Sign In with Github
         </button>
@@ -32,7 +32,7 @@ const Login = () => {
       {session && (
         <button
           onClick={() => signOut()}
-          className="p-2 bg-zinc-500 my-2 text-white rounded-md"
+          className="p-2 bg-slate-500 text-white rounded-md"
         >
           Sign out
         </button>
