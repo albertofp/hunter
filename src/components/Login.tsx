@@ -5,13 +5,15 @@ import { signIn, signOut, useSession } from "next-auth/react";
 const Login = () => {
   const { data: session } = useSession();
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="flex items-center justify-center h-screen p-4 gap-2">
       {session && (
-        <>
+        <div className="flex gap-2 items-center">
           <Image src={session?.user!.image} alt="img" width={50} height={50} />
-          <p>{session?.user?.name}</p>
-          <p>{session?.user?.email}</p>
-        </>
+          <div className="flex flex-col gap-2">
+            <p className="font-bold">{session?.user?.name}</p>
+            <p>{session?.user?.email}</p>
+          </div>
+        </div>
       )}
       {!session && (
         <button
