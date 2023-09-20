@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "company_name": "JYSK",
+      "title": "Sprzedawca/Magazynier JYSK Poznań Komorniki (3800 pln)",
+      "description": "",
+      "remote": false,
+      "url": "https://arbeitnow.com/view/sprzedawcamagazynier-jysk-poznan-komorniki-3800-pln-jysk-435302",
+      "tags": [
+        "Retail",
+        "customer service"
+      ],
+      "job_types": [
+        "Associate",
+        "full time"
+      ],
+      "location": "Poznań",
+      "created_at": 1638006722
+    },
+    {
+      "company_name": "TechSolutions",
+      "title": "Software Developer (Java) - Remote",
+      "description": "Join our dynamic team as a Software Developer and work on cutting-edge projects using Java technologies.",
+      "remote": true,
+      "url": "https://techsolutions.com/careers/software-developer-java",
+      "tags": [
+        "Technology",
+        "Software Development"
+      ],
+      "job_types": [
+        "Developer",
+        "full time"
+      ],
+      "location": "Remote",
+      "created_at": 1638006854
+    },
+    {
+      "company_name": "Gourmet Delights",
+      "title": "Sous Chef - Paris, France",
+      "description": "We are seeking a talented Sous Chef to join our culinary team in the heart of Paris. Create exquisite dishes and lead a passionate kitchen brigade.",
+      "remote": false,
+      "url": "https://gourmetdelights.fr/careers/sous-chef-paris",
+      "tags": [
+        "Hospitality",
+        "Culinary"
+      ],
+      "job_types": [
+        "Chef",
+        "full time"
+      ],
+      "location": "Paris",
+      "created_at": 1638006987
+    },
+    {
+      "company_name": "GreenScape",
+      "title": "Landscape Architect - New York City, USA",
+      "description": "Design and transform urban spaces with our team of creative landscape architects. Make a positive impact on the environment and community.",
+      "remote": false,
+      "url": "https://greenscape.com/careers/landscape-architect-nyc",
+      "tags": [
+        "Architecture",
+        "Environmental Design"
+      ],
+      "job_types": [
+        "Architect",
+        "full time"
+      ],
+      "location": "New York City",
+      "created_at": 1638007123
+    },
+    {
+      "company_name": "EcoTech",
+      "title": "Environmental Scientist - Berlin, Germany",
+      "description": "Conduct research and analyze data to address environmental challenges. Join us in making a sustainable impact on the world.",
+      "remote": false,
+      "url": "https://ecotech.de/careers/environmental-scientist-berlin",
+      "tags": [
+        "Science",
+        "Environmental"
+      ],
+      "job_types": [
+        "Scientist",
+        "full time"
+      ],
+      "location": "Berlin",
+      "created_at": 1638007266
+    },
+    {
+      "company_name": "FitLife Gym",
+      "title": "Personal Trainer - Los Angeles, USA",
+      "description": "Inspire and guide clients on their fitness journey. Create personalized workout plans and help individuals achieve their health goals.",
+      "remote": false,
+      "url": "https://fitlifegym.com/careers/personal-trainer-la",
+      "tags": [
+        "Fitness",
+        "Health"
+      ],
+      "job_types": [
+        "Trainer",
+        "full time"
+      ],
+      "location": "Los Angeles",
+      "created_at": 1638007400
+    }
+  ]
+}

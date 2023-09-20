@@ -1,4 +1,5 @@
 import { job } from "@/src/types/job";
+import { Badge } from "@/components/ui/badge";
 
 export default function Job({ ...job }: job) {
   return (
@@ -9,7 +10,9 @@ export default function Job({ ...job }: job) {
         <p>{job.location}</p>
         <p>remote: {job.remote ? "yes" : "no"}</p>
       </div>
-      <button className="bg-slate-600 text-white px-4 py-2 rounded-md" />
+      <div className="flex gap-2 p-2 flex-wrap">
+        {job.tags?.map((tag) => <Badge variant="destructive">{tag}</Badge>)}
+      </div>
     </div>
   );
 }

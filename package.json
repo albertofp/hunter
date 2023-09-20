@@ -10,6 +10,7 @@
     "db-start": "docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres"
   },
   "dependencies": {
+    "@radix-ui/react-avatar": "^1.0.3",
     "@tanstack/react-query": "^4.35.3",
     "@types/node": "20.6.2",
     "@types/react": "18.2.21",

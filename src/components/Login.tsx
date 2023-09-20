@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { signIn, signOut, useSession } from "next-auth/react";
 
 const Login = () => {
@@ -8,13 +8,10 @@ const Login = () => {
     <div className="flex items-center justify-center gap-2">
       {session && (
         <div className="flex gap-2 items-center">
-          <Image
-            src={session!.user!.image!}
-            alt="img"
-            width={50}
-            height={50}
-            className="rounded-full"
-          />
+          <Avatar>
+            <AvatarImage src={session!.user!.image!} alt="user avatar" />
+            <AvatarFallback>{session!.user!.name![0]}</AvatarFallback>
+          </Avatar>
           <div className="flex flex-col gap-2">
             <p className="font-bold">{session?.user?.name}</p>
             <p>{session?.user?.email}</p>
