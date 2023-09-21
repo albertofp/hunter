@@ -1,5 +1,4 @@
 export interface job {
-  slug: string;
   company_name: string;
   title: string;
   description: string;
