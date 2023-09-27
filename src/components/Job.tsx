@@ -11,7 +11,11 @@ export default function Job(props: job) {
         <p>remote: {props.remote ? "yes" : "no"}</p>
       </div>
       <div className="flex gap-2 p-2 flex-wrap">
-        {props.tags?.map((tag) => <Badge variant="destructive">{tag}</Badge>)}
+        {props.tags?.map((tag) => (
+          <Badge variant="destructive" key={tag}>
+            {tag}
+          </Badge>
+        ))}
       </div>
     </div>
   );
