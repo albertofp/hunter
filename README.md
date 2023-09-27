@@ -2,7 +2,7 @@
 
 ## Architecture
 
-[[architecture](./public/assets/architecture1.0.png)]
+[![architecture](./public/assets/architecture1.0.png)]
 
 ## Stack
 
