@@ -1,6 +1,7 @@
 {
   "data": [
     {
+      "id": "1",
       "company_name": "JYSK",
       "title": "Sprzedawca/Magazynier JYSK Poznań Komorniki (3800 pln)",
       "description": "",
@@ -18,6 +19,7 @@
       "created_at": 1638006722
     },
     {
+      "id": "2",
       "company_name": "TechSolutions",
       "title": "Software Developer (Java) - Remote",
       "description": "Join our dynamic team as a Software Developer and work on cutting-edge projects using Java technologies.",
@@ -35,6 +37,7 @@
       "created_at": 1638006854
     },
     {
+      "id": "3",
       "company_name": "Gourmet Delights",
       "title": "Sous Chef - Paris, France",
       "description": "We are seeking a talented Sous Chef to join our culinary team in the heart of Paris. Create exquisite dishes and lead a passionate kitchen brigade.",
@@ -52,6 +55,7 @@
       "created_at": 1638006987
     },
     {
+      "id": "4",
       "company_name": "GreenScape",
       "title": "Landscape Architect - New York City, USA",
       "description": "Design and transform urban spaces with our team of creative landscape architects. Make a positive impact on the environment and community.",
@@ -69,6 +73,7 @@
       "created_at": 1638007123
     },
     {
+      "id": "5",
       "company_name": "EcoTech",
       "title": "Environmental Scientist - Berlin, Germany",
       "description": "Conduct research and analyze data to address environmental challenges. Join us in making a sustainable impact on the world.",
@@ -86,6 +91,7 @@
       "created_at": 1638007266
     },
     {
+      "id": "6",
       "company_name": "FitLife Gym",
       "title": "Personal Trainer - Los Angeles, USA",
       "description": "Inspire and guide clients on their fitness journey. Create personalized workout plans and help individuals achieve their health goals.",
